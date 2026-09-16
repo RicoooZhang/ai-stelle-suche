@@ -1,0 +1,73 @@
+.resume .candidate-name {
+  font-size: 22pt;
+  font-weight: 700;
+  letter-spacing: -.015em;
+}
+.resume .contact-line {
+  margin: 1.8mm 0 5mm;
+  padding-bottom: 2.4mm;
+  border-bottom: 0.3mm solid var(--rule);
+  color: var(--muted);
+  font-size: 9.4pt;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+.resume .section-heading { clear: both; }
+.resume h3 { break-inside: avoid-page; page-break-inside: avoid; }
+.resume h3 + p, .resume h3 + ul { break-inside: avoid-page; }
+
+.entry-header {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  column-gap: 8mm;
+  margin: 3.5mm 0 1.5mm;
+  break-inside: avoid-page;
+  page-break-inside: avoid;
+}
+.entry-title {
+  grid-column: 1;
+  margin: 0;
+  color: var(--ink);
+  font-size: 11.2pt;
+  font-weight: 400;
+}
+.entry-role { font-weight: 700; }
+.entry-organization { color: var(--muted); font-size: 9.8pt; font-weight: 600; }
+.entry-date {
+  grid-column: 2;
+  grid-row: 1;
+  margin: .15mm 0 0;
+  color: var(--muted);
+  font-size: 9.5pt;
+  font-weight: 600;
+  white-space: nowrap;
+  text-align: right;
+}
+.entry-header + p { margin-top: 1.2mm; }
+.job-entry + p {
+  color: var(--muted);
+  font-size: 9.7pt;
+}
+
+.skill-group {
+  margin: 0 0 2.5mm;
+  break-inside: avoid-page;
+  page-break-inside: avoid;
+}
+.skill-group-title {
+  margin: 0 0 .7mm;
+  color: var(--ink);
+  font-size: 10pt;
+  font-weight: 700;
+}
+.skill-group-values {
+  margin: 0;
+  color: #343b43;
+  font-size: 9.7pt;
+  line-height: 1.35;
+}
+.competencies-section {
+  break-inside: avoid-page;
+  page-break-inside: avoid;
+}
+.draft-watermark { color: rgb(95 104 114 / 13%); }

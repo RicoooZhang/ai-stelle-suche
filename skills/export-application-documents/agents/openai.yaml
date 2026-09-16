@@ -1,0 +1,4 @@
+interface:
+  display_name: "Export Application Documents"
+  short_description: "Export verified application materials safely"
+  default_prompt: "Use $export-application-documents to generate a review-safe preview package for this application."

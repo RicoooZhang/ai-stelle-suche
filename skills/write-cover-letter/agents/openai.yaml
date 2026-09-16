@@ -1,0 +1,4 @@
+interface:
+  display_name: "write-cover-letter"
+  short_description: "德国求职工作流：write-cover-letter"
+  default_prompt: "Use $write-cover-letter to run this Germany job-search workflow safely."

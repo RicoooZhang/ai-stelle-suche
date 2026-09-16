@@ -1,0 +1,4 @@
+# HTML and DOCX export use only the Python standard library.
+# Install these inside the project .venv for the local PDF fallback and ATS text checks.
+reportlab>=4.0,<5
+pypdf>=5,<7

@@ -1,0 +1,62 @@
+# Candidate personal and source data
+candidate/
+applications/
+candidate/source-documents/
+candidate/private/
+candidate/certificates/
+candidate/references/
+candidate/extracted/
+candidate/resumes/
+applications/**/personal-data/
+
+# Local job-search records and generated reports
+data/applications/
+data/exports/
+data/jobs/
+reports/
+
+# Secrets and browser state
+.env
+.env.*
+!.env.example
+cookies/
+browser-profile/
+credentials/
+secrets/
+
+# Personal documents (keep only redacted text/Markdown templates)
+*.pdf
+*.docx
+*.doc
+*.xlsx
+*.xls
+*.odt
+*.rtf
+*.eml
+*.msg
+*passport*
+*identity-card*
+*aufenthaltstitel*
+
+# Build/runtime
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+dist/
+build/
+coverage/
+.pytest_cache/
+.codex-log/
+.DS_Store
+Thumbs.db
+
+# Generated backups and local logs
+backups/
+tmp/
+*.bak-*
+logs/
+
+# Read-only upstream reference checkout (separate Git repository)
+upstream-ai-job-search/

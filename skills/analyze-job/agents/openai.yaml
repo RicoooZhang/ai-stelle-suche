@@ -1,0 +1,4 @@
+interface:
+  display_name: "Analyze Germany Job"
+  short_description: "Normalize and score a German-market vacancy"
+  default_prompt: "Use $analyze-job to assess this vacancy without applying."

@@ -1,0 +1,21 @@
+{
+  "defaults": {
+    "cv": {
+      "de": "german-professional"
+    }
+  },
+  "templates": {
+    "german-professional": {
+      "name": "German Professional",
+      "path": "resume/german-professional",
+      "languages": ["de"],
+      "document_types": ["cv"]
+    },
+    "resume-legacy": {
+      "name": "Resume Legacy Compatibility",
+      "path": "resume",
+      "languages": ["de", "en"],
+      "document_types": ["cv"]
+    }
+  }
+}

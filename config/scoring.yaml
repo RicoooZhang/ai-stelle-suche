@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "dimensions": {
+    "core_work_match": {"label": "核心工作内容匹配", "weight": 25},
+    "erp_it_process_skills": {"label": "ERP、IT和业务流程技能", "weight": 20},
+    "transferable_experience": {"label": "可迁移经验", "weight": 15},
+    "industry_software_match": {"label": "行业和软件匹配", "weight": 10},
+    "language_match": {"label": "语言要求", "weight": 10},
+    "location_remote": {"label": "地点和远程条件", "weight": 8},
+    "experience_years": {"label": "工作经验年限", "weight": 5},
+    "education_certificates": {"label": "学历和证书", "weight": 3},
+    "work_authorization": {"label": "德国工作资格适配", "weight": 2},
+    "development_value": {"label": "个人发展价值", "weight": 2}
+  },
+  "grades": {
+    "A": {"min": 85, "max": 100, "recommendation": "强烈建议申请"},
+    "B": {"min": 75, "max": 84.99, "recommendation": "建议申请"},
+    "C": {"min": 65, "max": 74.99, "recommendation": "有条件申请"},
+    "D": {"min": 50, "max": 64.99, "recommendation": "优先级较低"},
+    "E": {"min": 0, "max": 49.99, "recommendation": "不建议申请"}
+  },
+  "penalties": [
+    {"id": "missing_mandatory_certificate", "points": 20, "veto": true},
+    {"id": "unsupported_native_german", "points": 15, "veto": false},
+    {"id": "deep_software_development_required", "points": 25, "veto": false},
+    {"id": "unsupported_senior_management", "points": 20, "veto": true},
+    {"id": "missing_regulated_license", "points": 25, "veto": true},
+    {"id": "pure_sales_role", "points": 25, "veto": false},
+    {"id": "pure_development_role", "points": 25, "veto": false},
+    {"id": "location_not_feasible", "points": 15, "veto": false},
+    {"id": "work_authorization_incompatible", "points": 30, "veto": true}
+  ]
+}

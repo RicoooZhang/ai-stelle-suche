@@ -1,0 +1,4 @@
+interface:
+  display_name: "track-application"
+  short_description: "德国求职工作流：track-application"
+  default_prompt: "Use $track-application to run this Germany job-search workflow safely."

@@ -1,0 +1,80 @@
+{
+  "template_id": "german-professional",
+  "template_name": "German Professional",
+  "supported_languages": ["de"],
+  "supported_document_types": ["cv"],
+  "page": {
+    "size": "A4",
+    "orientation": "portrait",
+    "margins_mm": {
+      "top": 17,
+      "right": 20,
+      "bottom": 17,
+      "left": 20
+    },
+    "maximum_pages": 2
+  },
+  "fonts": {
+    "primary": "Arial",
+    "fallbacks": ["Helvetica Neue", "Helvetica", "sans-serif"],
+    "name_pt": 22,
+    "body_pt": 10,
+    "contact_pt": 9.4,
+    "section_heading_pt": 12.8,
+    "entry_title_pt": 11.2,
+    "skill_value_pt": 9.7,
+    "minimum_body_pt": 9.5
+  },
+  "headings": {
+    "section_weight": 700,
+    "section_color": "#263746",
+    "rule_color": "#D6DADE",
+    "rule_width_mm": 0.3,
+    "section_order": [
+      "Profil",
+      "Berufserfahrung",
+      "Projekte",
+      "Kompetenzen",
+      "Ausbildung",
+      "Sprachen"
+    ]
+  },
+  "spacing": {
+    "body_line_height": 1.4,
+    "section_before_mm": 6,
+    "section_after_mm": 2.6,
+    "bullet_left_mm": 5.2,
+    "bullet_item_after_mm": 1.25
+  },
+  "watermark": {
+    "preview": {
+      "enabled": true,
+      "text": "DRAFT",
+      "opacity": 0.13
+    },
+    "final": {
+      "enabled": false,
+      "text": ""
+    }
+  },
+  "ats_compatibility": {
+    "single_column": true,
+    "selectable_text": true,
+    "external_fonts": false,
+    "external_resources": false,
+    "photos": false,
+    "icons": false,
+    "skill_bars": false,
+    "complex_sidebars": false,
+    "layout_tables_in_docx": false,
+    "notes": "Linear source order, real headings and numbering, embedded local TrueType fonts, no decorative content containers."
+  },
+  "pdf_quality": {
+    "minimum_bytes": 51200,
+    "maximum_bytes": 204800,
+    "exact_pages": 2,
+    "page_size": "A4 portrait",
+    "embedded_fonts_required": true,
+    "extractable_text_required": true
+  }
+}

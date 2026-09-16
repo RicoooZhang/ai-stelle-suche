@@ -1,0 +1,4 @@
+.cover-letter { font-size: 10.7pt; line-height: 1.38; }
+.cover-letter > h1:first-of-type { font-size: 13.5pt; margin-bottom: 7mm; }
+.cover-letter h2 { border: 0; padding: 0; margin-top: 6mm; }
+.cover-letter p { margin-bottom: 3.2mm; }

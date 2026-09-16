@@ -1,0 +1,69 @@
+@page {
+  size: A4;
+  margin: 17mm 20mm 17mm 20mm;
+}
+
+:root {
+  color-scheme: light;
+  --ink: #20252b;
+  --muted: #5f6872;
+  --accent: #263746;
+  --rule: #d6dade;
+}
+
+* { box-sizing: border-box; }
+html { background: #eef1f2; }
+body {
+  margin: 0;
+  color: var(--ink);
+  background: #eef1f2;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 10pt;
+  line-height: 1.4;
+}
+.document {
+  position: relative;
+  width: 210mm;
+  min-height: 297mm;
+  margin: 10mm auto;
+  padding: 17mm 20mm;
+  background: white;
+  box-shadow: 0 1mm 4mm rgb(0 0 0 / 12%);
+}
+h1, h2, h3, h4 { break-after: avoid-page; page-break-after: avoid; }
+h1 { margin: 0; color: var(--accent); font-size: 22pt; line-height: 1.08; }
+h2 {
+  margin: 6mm 0 2.6mm;
+  padding-bottom: 1.5mm;
+  border-bottom: 0.3mm solid var(--rule);
+  color: var(--accent);
+  font-size: 12.8pt;
+  line-height: 1.15;
+  letter-spacing: .005em;
+}
+h3 { margin: 3.4mm 0 1mm; font-size: 11pt; line-height: 1.2; }
+h4 { margin: 3mm 0 1mm; font-size: 10.2pt; }
+p { margin: 0 0 2.2mm; orphans: 3; widows: 3; }
+ul { margin: 1.2mm 0 2.8mm; padding-left: 5.2mm; }
+li { margin: 0 0 1.25mm; padding-left: .7mm; break-inside: avoid-page; page-break-inside: avoid; }
+strong { font-weight: 700; }
+aside { margin: 0 0 3mm; color: var(--muted); font-size: 9.5pt; }
+h3 + p, h3 + ul { break-before: avoid-page; page-break-before: avoid; }
+.draft-watermark {
+  position: fixed;
+  z-index: 10;
+  top: 46%;
+  left: 13%;
+  color: rgb(95 104 114 / 9%);
+  font-size: 66pt;
+  font-weight: 700;
+  letter-spacing: .12em;
+  transform: rotate(-30deg);
+  pointer-events: none;
+}
+
+@media print {
+  html, body { background: white; }
+  .document { width: auto; min-height: auto; margin: 0; padding: 0; box-shadow: none; }
+  a { color: inherit; text-decoration: none; }
+}

@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>SAMPLE_DATA_NOT_REAL – Anschreiben</title><style>@page {
+  size: A4;
+  margin: 18mm 21mm 18mm 21mm;
+}
+
+:root {
+  color-scheme: light;
+  --ink: #24292f;
+  --muted: #59636e;
+  --accent: #315b67;
+  --rule: #cbd5d8;
+}
+
+* { box-sizing: border-box; }
+html { background: #eef1f2; }
+body {
+  margin: 0;
+  color: var(--ink);
+  background: #eef1f2;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 10.5pt;
+  line-height: 1.34;
+}
+.document {
+  position: relative;
+  width: 210mm;
+  min-height: 297mm;
+  margin: 10mm auto;
+  padding: 18mm 21mm;
+  background: white;
+  box-shadow: 0 1mm 4mm rgb(0 0 0 / 12%);
+}
+h1, h2, h3, h4 { break-after: avoid-page; page-break-after: avoid; }
+h1 { margin: 0 0 2.5mm; color: #1f3a4d; font-size: 16pt; line-height: 1.1; }
+h2 {
+  margin: 5.5mm 0 2mm;
+  padding-bottom: 1mm;
+  border-bottom: 0.35mm solid var(--rule);
+  color: var(--accent);
+  font-size: 12.5pt;
+  line-height: 1.15;
+  letter-spacing: .01em;
+}
+h3 { margin: 3.5mm 0 1mm; font-size: 11pt; line-height: 1.2; }
+h4 { margin: 3mm 0 1mm; font-size: 10.5pt; }
+p { margin: 0 0 2.3mm; orphans: 3; widows: 3; }
+ul { margin: 1mm 0 2.5mm; padding-left: 5mm; }
+li { margin: 0 0 1.2mm; break-inside: avoid-page; page-break-inside: avoid; }
+strong { font-weight: 700; }
+aside { margin: 0 0 3mm; color: var(--muted); font-size: 9.5pt; }
+h3 + p, h3 + ul { break-before: avoid-page; page-break-before: avoid; }
+.draft-watermark {
+  position: fixed;
+  z-index: 10;
+  top: 46%;
+  left: 13%;
+  color: rgb(151 52 38 / 10%);
+  font-size: 66pt;
+  font-weight: 700;
+  letter-spacing: .12em;
+  transform: rotate(-30deg);
+  pointer-events: none;
+}
+
+@media print {
+  html, body { background: white; }
+  .document { width: auto; min-height: auto; margin: 0; padding: 0; box-shadow: none; }
+  a { color: inherit; text-decoration: none; }
+}
+
+.cover-letter { font-size: 10.7pt; line-height: 1.38; }
+.cover-letter > h1:first-of-type { font-size: 13.5pt; margin-bottom: 7mm; }
+.cover-letter h2 { border: 0; padding: 0; margin-top: 6mm; }
+.cover-letter p { margin-bottom: 3.2mm; }
+</style></head><body><div class="draft-watermark" aria-label="Preview">DRAFT</div><main class="document cover-letter" aria-label="Anschreiben"><h1>SAMPLE_DATA_NOT_REAL</h1>
+<p>sample@example.invalid · Musterstadt</p>
+<p><strong>Empfänger:</strong> NEEDS_CONFIRMATION</p>
+<p><strong>Datum:</strong> 2026-08-05</p>
+<h2>Betreff: Bewerbung als Sample Analyst</h2>
+<p>Sehr geehrte Damen und Herren,</p>
+<p>dies ist ein ausschließlich synthetisches Anschreiben für SAMPLE_DATA_NOT_REAL.</p>
+<p>Mit freundlichen Grüßen</p>
+<p>SAMPLE_DATA_NOT_REAL</p></main></body></html>

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Start Job Task"
+  short_description: "Route a job-search request to the right workflow"
+  default_prompt: "Use $job-task to start a guided job-search task."

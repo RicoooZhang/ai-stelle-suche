@@ -1,0 +1,4 @@
+interface:
+  display_name: "Research Job Company"
+  short_description: "Source employer facts for an application"
+  default_prompt: "Use $research-company to research this employer with sources."

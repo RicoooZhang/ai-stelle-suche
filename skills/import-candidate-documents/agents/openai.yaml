@@ -1,0 +1,4 @@
+interface:
+  display_name: "import-candidate-documents"
+  short_description: "德国求职工作流：import-candidate-documents"
+  default_prompt: "Use $import-candidate-documents to run this Germany job-search workflow safely."

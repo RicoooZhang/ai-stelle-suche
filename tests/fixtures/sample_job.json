@@ -1,0 +1,13 @@
+{
+  "sample_marker": "SAMPLE_DATA_NOT_REAL",
+  "job_id": "fixture-001",
+  "title": "SAMPLE ERP Consultant",
+  "company": "SAMPLE GmbH",
+  "location": "Köln",
+  "source": "SAMPLE",
+  "source_url": "https://example.invalid/jobs/1?utm_source=test",
+  "date_found": "2026-08-04",
+  "application_status": "discovered",
+  "description": "SAMPLE_DATA_NOT_REAL ERP implementation and application support",
+  "dimension_ratings": {"core_work_match":1,"erp_it_process_skills":1,"transferable_experience":1,"industry_software_match":1,"language_match":1,"location_remote":1,"experience_years":1,"education_certificates":1,"work_authorization":1,"development_value":1}
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "weekly-job-review"
+  short_description: "德国求职工作流：weekly-job-review"
+  default_prompt: "Use $weekly-job-review to run this Germany job-search workflow safely."

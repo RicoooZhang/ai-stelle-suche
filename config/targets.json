@@ -1,0 +1,8 @@
+{
+  "status": "INITIAL_INFORMATION_REQUIRES_SOURCE_VERIFICATION",
+  "target_roles": ["ERP Consultant","ERP Application Consultant","ERP Application Manager","ERP Support Specialist","ERP Administrator","Application Support Specialist","Application Manager","Business Application Manager","IT Application Manager","IT Consultant","Digitalization Consultant","Digitalisierung Consultant","Prozessmanager Digitalisierung","Prozesskoordinator","Business Process Manager","Business Process Consultant","Odoo Consultant","Odoo Functional Consultant","Odoo Administrator","Microsoft 365 Administrator","Microsoft 365 Support","IT Support Specialist","IT Support Engineer","AI Solutions Consultant","Junior AI Consultant","AI Consultant","Technical Consultant","Implementation Consultant","Software Implementation Consultant","Customer Success Manager B2B Software","Customer Success Consultant","Supply Chain IT Consultant","Logistics IT Consultant","Logistics Application Consultant","IT Business Analyst","Junior Business Analyst","Requirements Engineer","Inhouse Consultant ERP","Inhouse Consultant Applications","Fachinformatiker Anwendungsbetreuung","Mitarbeiter Anwendungsbetreuung","IT Prozessmanager"],
+  "lower_priority_roles": ["Java Developer","C# Developer","Frontend Developer","Backend Developer","DevOps Engineer","pure sales","telephone sales","business development without technical scope"],
+  "primary_locations": ["Gummersbach","Köln","Bonn","Düsseldorf","Bergisch Gladbach","Leverkusen","Wuppertal","Siegen","Dortmund","Essen","Aachen","Nordrhein-Westfalen"],
+  "secondary_locations": ["Frankfurt am Main","Hannover","Hamburg","Stuttgart","München","Berlin"],
+  "accepted_work_models": ["Remote Germany","Deutschlandweit Remote","Hybrid","德国境内远程","每周部分时间到办公室"]
+}

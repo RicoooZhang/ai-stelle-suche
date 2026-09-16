@@ -1,0 +1,4 @@
+interface:
+  display_name: "search-germany-jobs"
+  short_description: "德国求职工作流：search-germany-jobs"
+  default_prompt: "Use $search-germany-jobs to run this Germany job-search workflow safely."

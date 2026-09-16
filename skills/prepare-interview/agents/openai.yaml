@@ -1,0 +1,4 @@
+interface:
+  display_name: "prepare-interview"
+  short_description: "德国求职工作流：prepare-interview"
+  default_prompt: "Use $prepare-interview to run this Germany job-search workflow safely."

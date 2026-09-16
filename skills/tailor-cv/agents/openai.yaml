@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tailor Verified CV"
+  short_description: "Tailor a CV from verified candidate facts"
+  default_prompt: "Use $tailor-cv to prepare a fact-grounded CV draft."

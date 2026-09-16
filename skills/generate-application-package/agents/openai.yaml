@@ -1,0 +1,4 @@
+interface:
+  display_name: "generate-application-package"
+  short_description: "德国求职工作流：generate-application-package"
+  default_prompt: "Use $generate-application-package to run this Germany job-search workflow safely."
